@@ -1,44 +1,22 @@
-# Weather App
+# Cross-language Medical Translator (EN <-> AR)
 
-## Result
+This is a simple, client-side web application for translating common medical terms between English and Arabic. It uses a local JavaScript dictionary instead of an external API, making it fast, efficient, and capable of running offline.
 
-![preview page](./src/imgs/preview.png)  
-[LIVE DEMO](https://silva-mo.github.io/weather-app)
+The project is built with a mobile-first approach, ensuring a seamless experience on both desktop and mobile devices.
 
-## About
+[Image of a medical translation app interface]
 
-This is my fourth JavaScript project from **The Odin Project** curriculum — a fully functional **Weather App**.  
-It deepened my skills in **API handling**, **asynchronous JavaScript** (`async/await` & Promises), and improved my approach to **frontend UI handling**.  
-I also implemented **loading components** and basic **frontend error handling** for a better user experience.
+## ✨ Features
 
-Alhamdulillah
+- **Live Search:** Instantly filters the dictionary as you type for quick lookups.
+- **Bilingual Support:** Translates terms between English and Arabic.
+- **Language Swap:** Easily switch the translation direction with a single click, updating the interface and search logic.
+- **Local Dictionary:** All translation data is stored locally within the app; no internet connection or API keys are needed.
+- **Responsive Design:** The user interface is fully optimized for a great experience on any screen size.
+- **Modern Tooling:** Uses Webpack for a professional development and build process.
 
-## What was needed to complete it:
+## 🚀 Getting Started
 
-- Fetching and processing data from a public Weather API
-- Using **`async/await`** and **Promises** for clean asynchronous code
-- Integrating the **Geolocation API** to get user location-based weather
-- Adding **loading components** during data fetch
-- Handling simple frontend errors for failed API requests
-- Using **dynamic imports** for efficient code splitting
-- Creating a responsive and visually appealing UI
+Follow these instructions to get a copy of the project up and running on your local machine.
 
-## Challenges that I’ve overcome:
-
-- Working with the **Geolocation API** while managing user permissions and errors
-- Implementing **dynamic imports** without breaking the Webpack build
-- Ensuring smooth loading states and clear error messages
-- Handling asynchronous code in a modular, maintainable way
-- Making the UI responsive and consistent across devices
-
-## Tech Stack
-
-- JavaScript (ES6)
-- HTML5
-- CSS3 (Flexbox & Grid)
-- Webpack
-- Weather API
-
----
-
-✅ Built with care — feel free to explore or contribute!
+###
