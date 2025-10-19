@@ -3,35 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather App</title>
-    <link rel="icon" href="imgs/weather-icons/clear-day.svg" />
+    <title>Medical Translator</title>
   </head>
   <body>
-    <header>
-      <div class="logo-container">
-        <img src="./imgs/logo.svg" alt="logo" />
-        <h1>Weather App</h1>
-      </div>
-      <div class="slider_div">
-        <label for="unit"
-          ><span class="label-txt">Switch Unit</span>
-          <div class="slider-container">
-            <input type="checkbox" id="unit" value="F" />
-            <span class="slider"></span>
-          </div>
-        </label>
-      </div>
-    </header>
-    <main>
-      <div class="search-bar-container">
-        <input type="search" id="search-bar" placeholder="Search for a location" />
-        <img src="./imgs/search.svg" alt="search" />
-      </div>
-    </main>
-    <div class="footer">
-      <a href="https://github.com/Silva-Mo/weather-app"
-        >Copyright © Webpage by: Silva-Mo<img src="imgs/github-mark-white.svg"
-      /></a>
+    <div class="app-container">
+      <header>
+        <h1>Medical Term Translator</h1>
+        <div class="lang-direction">
+          <span id="source-lang">English</span>
+          <i class="arrow">➔</i>
+          <span id="target-lang">Arabic</span>
+        </div>
+      </header>
+
+      <main>
+        <div class="translator-controls">
+          <input type="text" id="search-input" placeholder="Start typing a medical term..." />
+          <button id="swap-btn" title="Swap Languages">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF">
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path d="M6.99 11L3 15l3.99 4v-3H14v-2H6.99v-3zM21 9l-3.99-4v3H10v2h7.01v3L21 9z" />
+            </svg>
+          </button>
+        </div>
+
+        <div id="results-container" class="results-container"></div>
+      </main>
     </div>
   </body>
 </html>
